@@ -7239,6 +7239,9 @@ var layoutHis = {
   title: 'Price frequency',
   xaxis: {
     title: 'Price'
+  },
+  yaxis: {
+    title: 'number of houses'
   }
 };
 
