@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />					<!-- Anger bredd beroende på skärm -->
+		<title>Plotting the end</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- W3 egna css style, används för design av knappar -->
+		<link rel="stylesheet" href="./css/style.css" />						<!-- min css-style  -->
+	</head>
+	<body>
+		<header>
+			<div class="container">								<!-- -->
+				<h1>Nice graphs don't grow on trees</h1>		<!-- -->
+				<p>Unless it's a binary search tree</p>			<!-- -->
+			</div>
+		</header>
+		<div class="colorborder">								<!-- Avgränsade blå sektion -->
+			<div>
+				<h3>Here are some statistics from the BnB database</h3>
+			</div>
+		</div>
+
+		<div id="slideshow" class="w3-display-container">		<!-- Bild section -->
+			<div class="container">
+			
+				<div id="histogram1" class="graphs"></div>		<!-- 4 grafer -->
+				<div id="histogram2" class="graphs"></div>
+				<div id='scatterPlot' class="graphs"></div>
+				<div id='pie' class="graphs"></div>
+				
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>	<!-- Två sidoknappar -->
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+		</div>
+		<div class="colorborder">							<!-- Avgränsande blå sektion -->
+			<div class="container">
+				<p>Everyone loves my graphs</p>
+			</div>
+		</div>
+		<footer>											<!-- Fot med slogan -->
+			<div class="container">
+				<p>MaxGraphs.com - making facts come to life</p>
+			</div>
+		</footer>
+		
+	</body>
+
+	<script src="C:/Users/maxma/Desktop/plotly-latest.min.js"></script>	<!-- plot.ly javascript -->
+	<script src="./js/graphic.js"></script>								<!-- Mitt javascript -->
+
+</html>

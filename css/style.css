@@ -1,0 +1,50 @@
+
+
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif; /* Sätter den generella textstilen */
+	padding:0;
+	margin:0;
+}
+
+.container{				
+	width:80%;				/* all element använder 80% av bredden */
+	margin:auto;
+	overflow:hidden;		/* Tar element mer utrymme än de tilldelas skärs dom av */
+}
+
+header{						/* Sätter färger och avgränsningar för toppen blocket av hemsidan */
+	background:#3CB371;		/* stylish blue */
+	color:#ffffff;			/* white knight */
+	padding-top:30px;		/* Alla element är avgränsade med 30px */
+	min-height:70px;		/* minst 70px högt */
+	font-weight:bold;		/* modig text */
+}
+
+#slideshow{					/* slodshow-delen är minst 600px i höjd */
+	height: 600px;
+}
+
+.colorborder{				/* Avgränsande element */
+	height: 80px;			/* 80 px i höjd */
+	background: #F0F8FF;	/* passive blue */
+}
+.colorborder h3{			/* Explaning text */
+	width:90%;				
+	margin:auto;			
+}
+
+footer{						/* Sätter färger och avgränsningar för botten blocket av hemsidan */
+	background:#2E8B57;		/* stylishvdark blue */
+	color:#ffffff;			/* white knight */
+	padding-top:30px;		/* Alla element är avgränsade med 30px */
+	min-height:70px;		/* minst 70px högt */
+	font-weight:bold;		/* modig text */
+}
+
+.graphs{
+	width:600px; 			/* graphen är minst 600px i bredd */
+	height:600px;			/* graphen är minst 600px i höjd */
+    display: inline-block;	/* it is displayed */
+    margin-left: auto;		
+    margin-right: auto;
+}
